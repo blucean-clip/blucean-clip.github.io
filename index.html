@@ -1,14 +1,16 @@
 
 <html>
-    <style>
+    <style type="text/css">
       table {
-         border: 1px #000000;
+        border: 1px solid #000000;
+        border-collapse: collapse;
+        text-align:center;
       }
     </style>
     <head>
         <link rel="stylesheet" href="tab.css">
     </head>
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <body>
         <div id="css_tabs">
             <input id="tab1" type="radio" name="tab" checked="checked" />
@@ -23,17 +25,22 @@
 
 
             <div class="tab1_content">
-            <table border="1">
+            <table border="1" width="100%">
+                <colgroup>
+                    <col width="30%"/>
+                    <col width="20%"/>
+                    <col width="50%"/>
+                </colgroup>
                 <tr>
-                    <td>DT</td>
-                    <td>Ver</td>
-                    <td>Link</td>
+                    <td>Date</td>
+                    <td>Version</td>
+                    <td>Download</td>
                 </tr>
                 <tr>                   
-                    <td>03/211 11:30</td>
-                    <td>Ver</td>
+                    <td>03/21 11:30</td>
+                    <td>08.00.08</td>
                     <td>
-                        <a href="itms-services://?action=download-manifest&url=https://blucean-clip.github.io/clip4_inhouse_tb_TEST.plist" class="button">DownLoad</a>
+                        <a href="itms-services://?action=download-manifest&url=https://blucean-clip.github.io/clip4_inhouse_tb_TEST.plist" class="button">설치하기</a>
                     </td>
                 </tr>
             </table>
