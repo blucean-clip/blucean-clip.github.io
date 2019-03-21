@@ -19,7 +19,7 @@
 #css_tabs > label {
     display:inline-block;
     font-variant:small-caps;
-    font-size:.9em;
+    font-size:.7em;
     padding:5px;
     text-align:center;
     width:20%;
@@ -33,9 +33,6 @@
 }
 #css_tabs > label:hover {
     cursor:pointer
-}
-#css_tabs label[for=tab1] {
-    margin-left:1.5em
 }
 
 /* 선택된 라벨, 커서를 올린 라벨 스타일 지정 */
