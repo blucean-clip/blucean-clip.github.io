@@ -17,13 +17,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.kt.MOCA</string>
+				<string>kr.co.show.ollehmywallet</string>
 				<key>bundle-version</key>
-				<string>08.00.09</string>
+				<string>08.00.08</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>clip4_inhouse_test</string>
+				<string>CLiP 08.00.08 AdHoc</string>
 			</dict>
 		</dict>
 	</array>
