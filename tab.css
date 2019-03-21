@@ -55,7 +55,7 @@
 
 /* 실제 내용이 담긴 div 요소 스타일 지정 */
 #css_tabs .tab1_content, #css_tabs .tab2_content, #css_tabs .tab3_content, #css_tabs .tab4_content {
-    padding:2em;
+    padding:10px;
     border:1px solid #ddd;
     width:80%;
     height:80%
